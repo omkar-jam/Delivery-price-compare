@@ -1,0 +1,7 @@
+name,price,category,platform,scraped_at
+Margherita Pizza,9.99,Pizza,uber_eats,2026-05-21T10:00:00+00:00
+Pepperoni Feast,11.50,Pizza,uber_eats,2026-05-21T10:00:00+00:00
+Garlic Bread with Cheese,3.75,Sides,uber_eats,2026-05-21T10:00:00+00:00
+Classic Caesar Salad,7.25,Salads,uber_eats,2026-05-21T10:00:00+00:00
+Grilled Chicken Burger,10.95,Burgers,uber_eats,2026-05-21T10:00:00+00:00
+Uber Exclusive Wings,8.99,Specials,uber_eats,2026-05-21T10:00:00+00:00

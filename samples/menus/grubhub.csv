@@ -1,0 +1,4 @@
+name,price,category,platform,scraped_at
+Margherita Pizza,10.25,Pizza,grubhub,2026-05-21T13:00:00+00:00
+Pepperoni Pizza,11.75,Pizza,grubhub,2026-05-21T13:00:00+00:00
+Grubhub Free Delivery Fries,6.50,Sides,grubhub,2026-05-21T13:00:00+00:00

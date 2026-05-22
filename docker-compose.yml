@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+name,price,category,platform,scraped_at
+Margherita Pizza,10.49,Pizza,deliveroo,2026-05-21T11:00:00+00:00
+Pepperoni Pizza,11.99,Pizza,deliveroo,2026-05-21T11:00:00+00:00
+Garlic Bread,3.99,Sides,deliveroo,2026-05-21T11:00:00+00:00
+Chicken Burger,11.25,Burgers,deliveroo,2026-05-21T11:00:00+00:00
+Deliveroo Meal Deal,14.99,Specials,deliveroo,2026-05-21T11:00:00+00:00
