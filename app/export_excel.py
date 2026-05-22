@@ -12,15 +12,19 @@ from openpyxl.utils import get_column_letter
 COMPARISON_COLUMNS = [
     "platform",
     "online_name",
+    "online_category",
+    "online_family",
     "pos_name",
+    "pos_category",
+    "pos_family",
     "pos_id",
     "online_price",
     "pos_price",
     "diff",
     "diff_pct",
     "match_score",
+    "category_match_ok",
     "action",
-    "category",
 ]
 
 HEADER_FILL = PatternFill(start_color="06C167", end_color="06C167", fill_type="solid")
@@ -66,7 +70,7 @@ def _format_sheet(ws, df: pd.DataFrame, *, currency_cols: tuple[str, ...] = ()) 
             fill = None
             if action == "ok":
                 fill = OK_FILL
-            elif "unmatched" in action:
+            elif "unmatched" in action or "category_mismatch" in action or "low_confidence" in action:
                 fill = WARN_FILL
             elif action in ("lower_online_or_raise_pos", "raise_online_or_lower_pos"):
                 fill = BAD_FILL
